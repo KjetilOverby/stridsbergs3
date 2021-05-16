@@ -1,0 +1,41 @@
+.container {
+  margin-bottom: 5rem;
+  margin-top: 4rem;
+  width: 16rem;
+}
+.img {
+  height: 5rem;
+}
+.imgContainer {
+  height: 5rem;
+  border-radius: 50%;
+  width: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.title {
+  color: rgb(25, 85, 119);
+  font-size: 1rem;
+  margin-top: -1.3rem;
+  font-weight: 100;
+}
+.mail {
+  margin-top: -0.5rem;
+  font-style: italic;
+}
+.phone {
+  font-style: italic;
+}
+@media screen and (max-width: 1000px) {
+  .container {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+}
+.icon {
+  color: rgb(25, 85, 119);
+  vertical-align: middle;
+  margin-right: 1rem;
+}

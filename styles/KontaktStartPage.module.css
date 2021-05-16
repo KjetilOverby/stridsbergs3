@@ -1,0 +1,61 @@
+.container {
+  display: grid;
+  grid-template-columns: 40rem 1fr 1fr 1fr 40rem;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:
+    ". kontakt kontakt kontakt ."
+    ". card card card ."
+    ". map map map .";
+}
+.header {
+  font-weight: 500;
+}
+
+.kontaktInfoContainer {
+  grid-area: kontakt;
+  padding: 1rem;
+}
+.kontaktInfo {
+  margin-top: -1rem;
+}
+.cardsContainer {
+  grid-area: card;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+}
+.mapContainer {
+  grid-area: map;
+}
+.mapImg {
+  height: 20rem;
+}
+.mapSectionContainer {
+  margin: 3rem 0 6rem 0;
+  width: 40.5rem;
+}
+@media screen and (max-width: 1990px) {
+  .container {
+    grid-template-columns: 20rem 1fr 1fr 1fr 20rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    grid-template-columns: 3rem 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+      "kontakt kontakt kontakt kontakt kontakt"
+      ". card card card card"
+      "map map map map map";
+  }
+  .mapImg {
+    width: 100vw;
+    height: auto;
+  }
+  .mapSectionContainer {
+    width: 100vw;
+    margin-bottom: 5rem;
+  }
+  .textContainer {
+    margin: 0 0.5rem;
+  }
+}

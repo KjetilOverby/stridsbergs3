@@ -1,0 +1,76 @@
+.container {
+  display: grid;
+  grid-template-columns: 15rem 1fr 1fr 1fr 15rem;
+  background: var(--primary);
+  height: 20rem;
+  grid-template-areas: ". first second third. ";
+  padding: 1rem 0 0 0;
+}
+.firstContainer {
+  grid-area: first;
+  display: flex;
+  justify-content: center;
+}
+.firstSubContainer {
+  display: inline-block;
+}
+.header {
+  color: var(--white);
+  font-size: 1.3rem;
+  font-weight: 400;
+  font-style: italic;
+}
+.headerText {
+  font-style: italic;
+  color: var(--white);
+  margin-bottom: -0.7rem;
+  font-weight: 300;
+}
+.secondContainer {
+  grid-area: second;
+  display: flex;
+  justify-content: center;
+}
+.subheader {
+  color: var(--white);
+  font-style: italic;
+}
+.subheader2 {
+  color: var(--white);
+  font-style: italic;
+  margin-top: 2rem;
+}
+.thirdContainer {
+  grid-area: third;
+}
+.logo {
+  height: 3rem;
+  margin-top: 1rem;
+}
+
+@media screen and (max-width: 1400px) {
+  .container {
+    grid-template-columns: 0rem 1fr 1fr 1fr 0rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .container {
+    grid-template-columns: 0rem 1fr 1fr 1fr 0rem;
+    height: 40rem;
+    grid-template-areas:
+      "first first first first first "
+      "second second second second second"
+      "third third third third third";
+  }
+  .firstContainer {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 1rem;
+  }
+  .secondContainer {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 1rem;
+  }
+}

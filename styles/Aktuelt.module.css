@@ -1,0 +1,86 @@
+.container {
+  min-height: 100vh;
+  display: grid;
+
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:
+    "header header header header"
+    "content content content content"
+    "footer footer footer footer";
+}
+
+.head {
+  grid-area: head;
+  justify-self: center;
+  margin: 6rem 0 0rem 0;
+}
+.headerContainer {
+  grid-area: header;
+}
+
+.contentContainer {
+  grid-area: content;
+}
+.footerContainer {
+  grid-area: footer;
+}
+
+/******** SALGSBETINGELSER ***********/
+.salgbetingelserContainer {
+  width: 50rem;
+  margin-left: 20rem;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+}
+.list {
+  font-weight: 600;
+}
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: rgb(138, 138, 138);
+}
+.underlineText1 {
+  color: rgb(83, 83, 83);
+  font-style: italic;
+}
+.underlineText {
+  color: rgb(83, 83, 83);
+  font-style: italic;
+  margin-top: -1rem;
+}
+
+/******** NYHETER ***********/
+
+.newsContainer {
+  margin-left: 2rem;
+}
+
+/* @media screen and (max-width: 1990px) {
+  .container {
+    grid-template-columns: 25rem 1fr 1fr 25rem;
+    grid-template-rows: auto 15rem auto 1fr auto;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .container {
+    grid-template-columns: 15rem 1fr 1fr 15rem;
+    grid-template-rows: auto 15rem auto 1fr auto;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .container {
+    grid-template-columns: 3rem 1fr 1fr 3rem;
+    grid-template-rows: auto 8rem auto 1fr auto;
+  }
+  .head {
+    margin: 5rem 0;
+  }
+}
+*/
+@media screen and (max-width: 1000px) {
+  .salgbetingelserContainer {
+    width: 100vw;
+    margin: 5rem 1rem;
+  }
+}
