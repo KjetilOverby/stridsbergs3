@@ -5,6 +5,7 @@
   height: 20rem;
   grid-template-areas: ". first second third. ";
   padding: 1rem 0 0 0;
+  grid-area: footer;
 }
 .firstContainer {
   grid-area: first;

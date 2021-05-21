@@ -1,0 +1,22 @@
+.container {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 20rem 1fr auto;
+  grid-template-columns: 45rem 1fr 1fr 1fr 45rem;
+
+  grid-template-areas:
+    "header header header header header"
+    "image image image image image"
+    ". content content content ."
+    "footer footer footer footer footer";
+}
+
+.imgContainer {
+  background: url("https://images.unsplash.com/photo-1506508618093-6fe5ce3def4c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80");
+  grid-area: image;
+}
+@media screen and (max-width: 1920px) {
+  .container {
+    grid-template-columns: 25rem 1fr 1fr 1fr 25rem;
+  }
+}

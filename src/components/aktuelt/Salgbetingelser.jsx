@@ -15,7 +15,7 @@ function Salgbetingelser() {
         <p className={styles.text}>
           Alle priser er oppgitt uten merverdigavgift, frakt og evt.
           spesialemballasje. Prisendringer som følge av endringer i
-          valutekurser, offentlige toll og avgifter mv. som Kvarnstrands &
+          valutakurser, offentlige toll og avgifter mv. som Kvarnstrands &
           Stridsbergs AS ikke kan påvirke skal komme i tillegg/fradrag til den
           avtalte pris.
         </p>
@@ -45,7 +45,7 @@ function Salgbetingelser() {
           fabrikasjonsfeil. Kjøper plikter å gi selger nødvendig tid for å
           avhjelpe mangelen, samt å stille varen til rådighet for selger gjennom
           eventuelle demontering og transport til selgers verksted. Våre
-          forpliktelser bortfaller hvis det pviselig er gjort inngrep i varen
+          forpliktelser bortfaller hvis det påviselig er gjort inngrep i varen
           eller hvis mangelen er oppstått gjennom ukyndig montering eller bruk.
           Selger sitt ansvar overfor kjøper er begrenset til kjøpers
           dokumentbare direkte tap, og kan ikke overstige fakturert beløp som

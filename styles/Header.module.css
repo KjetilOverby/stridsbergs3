@@ -7,6 +7,7 @@
   padding: 0 5rem;
   position: fixed;
   width: 100%;
+  grid-area: header;
 }
 .tab {
   color: var(--white);

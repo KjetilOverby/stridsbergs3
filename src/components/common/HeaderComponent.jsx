@@ -102,9 +102,30 @@ function HeaderComponent() {
             <Link href="/about">
               <p className={styles.tab}>Om oss</p>
             </Link>
-            <Link href="/produkter">
-              <p className={styles.tab}>Produkter</p>
-            </Link>
+            <div className={styles.dropdown}>
+              <Link href="/produkter">
+                <p className={styles.tab}>
+                  Produkter{" "}
+                  <RiArrowDownSLine style={{ verticalAlign: "middle" }} />
+                </p>
+              </Link>
+              <div className={styles.dropdownContent}>
+                <div>
+                  <Link href="/sirkelsagblad">
+                    <p className={styles.tab}>Sagblad</p>
+                  </Link>
+                </div>
+                <Link href="/bandsagblad">
+                  <p className={styles.tab}>Båndsagblad</p>
+                </Link>
+                <Link href="/kniver">
+                  <p className={styles.tab}>Kniver</p>
+                </Link>
+                <Link href="/fres">
+                  <p className={styles.tab}>Fres</p>
+                </Link>
+              </div>
+            </div>
             <Link href="/slipeservice">
               <p className={styles.tab}>Slipeservice</p>
             </Link>

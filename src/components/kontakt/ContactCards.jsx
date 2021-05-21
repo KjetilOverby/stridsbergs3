@@ -15,10 +15,10 @@ function ContactCards({ img, name, title, phone, mail }) {
         <FiPhone className={styles.icon} />
         {phone}
       </p>
-      <p className={styles.mail}>
+      <a className={styles.mail} href={`mailto:${mail}`}>
         <FiMail className={styles.icon} />
         {mail}
-      </p>
+      </a>
     </div>
   );
 }

@@ -1,0 +1,52 @@
+.container {
+  grid-area: content;
+  display: grid;
+  grid-template-columns: 18rem 1fr 18rem;
+  grid-template-areas:
+    "sidebar text image"
+    "sidebar foot foot"
+    "sidebar foot foot"
+    "sidebar foot foot";
+  grid-column-gap: 3rem;
+  margin: 5rem 0;
+}
+.specialistCardContainer {
+  grid-area: sidebar;
+  background-color: rgb(234, 234, 234);
+  padding: 1rem;
+}
+.textContainer {
+  grid-area: text;
+}
+.headerTextBox {
+  margin-top: 0;
+}
+.personImg {
+  height: 12rem;
+}
+.footContainer {
+  grid-area: foot;
+  display: grid;
+  grid-template-areas:
+    "line line"
+    "text text"
+    "product1 product2";
+}
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: black;
+  grid-area: line;
+}
+.text {
+  grid-area: text;
+}
+.product1 {
+  grid-area: product1;
+}
+.product2 {
+  grid-area: product2;
+}
+.footImage {
+  width: 15rem;
+}
