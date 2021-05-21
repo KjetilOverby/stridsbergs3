@@ -5,7 +5,8 @@
   align-items: center;
   justify-content: space-between;
   padding: 0 5rem;
-  position: relative;
+  position: fixed;
+  width: 100%;
 }
 .tab {
   color: var(--white);

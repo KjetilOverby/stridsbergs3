@@ -31,6 +31,7 @@ function FooterComponent() {
           src="https://lh3.googleusercontent.com/pw/ACtC-3fXiI7_HzVyk9l0H85KMJVtoKnh3Y-f7E2CZPZ40uusS5CQtZAbm0XURt86EnZVvRthOWce5ZNLFq6LNo7xSUPFlctVVGCAAUxXkrUTYVRF7Ptgv9pDNfPtB85OSEsBCDLWZL-SBbJFmKf45lOy3NS4=w1191-h258-no?authuser=0"
           alt=""
         />
+        <p className={styles.orgnr}>Org.nr: NO982734347MVA</p>
       </div>
     </div>
   );

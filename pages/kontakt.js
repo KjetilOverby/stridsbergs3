@@ -16,6 +16,7 @@ function kontakt() {
           <div className={styles.headerContainer}>
             <HeaderComponent />
           </div>
+          <div className={styles.imageContainer}></div>
 
           <div className={styles.contentContainer}>
             <KontaktStartPage />

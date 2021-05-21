@@ -9,7 +9,7 @@ const nyheter = () => {
   return (
     <div>
       <Head>
-        <title>Salgsbetingelser | Stridsbergs & Kvarnstrands</title>
+        <title>Nyheter | Stridsbergs & Kvarnstrands</title>
       </Head>
       <body>
         <div className={styles.container}>

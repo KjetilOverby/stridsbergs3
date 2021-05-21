@@ -9,7 +9,7 @@ function stilling_ledig() {
   return (
     <div>
       <Head>
-        <title>Salgsbetingelser | Stridsbergs & Kvarnstrands</title>
+        <title>Stilling ledig | Stridsbergs & Kvarnstrands</title>
       </Head>
       <body>
         <div className={styles.container}>

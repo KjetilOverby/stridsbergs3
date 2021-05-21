@@ -47,6 +47,11 @@
   height: 3rem;
   margin-top: 1rem;
 }
+.orgnr {
+  color: var(--white);
+  font-style: italic;
+  margin-left: 2rem;
+}
 
 @media screen and (max-width: 1400px) {
   .container {

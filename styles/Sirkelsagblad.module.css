@@ -20,7 +20,7 @@
 }
 @media screen and (max-width: 1990px) {
   .container {
-    grid-template-columns: 28rem 1fr 1fr 28rem;
+    grid-template-columns: 24rem 1fr 1fr 24rem;
   }
 }
 @media screen and (max-width: 1730px) {

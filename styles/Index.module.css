@@ -2,7 +2,7 @@
   min-height: 100vh;
   display: grid;
   grid-template-columns: 45rem 1fr 1fr 45rem;
-  grid-template-rows: auto 20rem 1fr auto;
+  grid-template-rows: auto 25rem 1fr auto;
   grid-template-areas:
     "header header header header"
     "image image image image"
@@ -21,7 +21,7 @@
 
 .imgContainer {
   grid-area: image;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     url("https://lh3.googleusercontent.com/pw/ACtC-3chKooY5JRXP4ar8D4ge7MODZmw4iMo-J7NwNQTLbkQ491EqwMVdLZPrYgMLniQ-n4N5K7kWE9_Hj03nuAQ515_VKcRG6gokTGJDDEKn-AuQ9bK3UpWIhxvFRCxX1gR2DN-dGoF2RBp9a-y23vDyCA=w1919-h1080-no?authuser=0");
   background-size: cover;
   background-position: 50%;
@@ -36,7 +36,7 @@
 @media screen and (max-width: 1990px) {
   .container {
     grid-template-columns: 25rem 1fr 1fr 25rem;
-    grid-template-rows: auto 15rem 1fr auto;
+    grid-template-rows: auto 20rem 1fr auto;
   }
 }
 @media screen and (max-width: 1400px) {
@@ -48,10 +48,10 @@
 @media screen and (max-width: 1200px) {
   .container {
     grid-template-columns: 3rem 1fr 1fr 3rem;
-    grid-template-rows: auto 8rem 1fr auto;
+    grid-template-rows: auto 15rem 1fr auto;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
   .container {
     grid-template-columns: 1rem 1fr 1fr 1rem;
     grid-template-rows: auto 8rem 1fr auto;
