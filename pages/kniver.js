@@ -18,7 +18,7 @@ function kniver() {
         header="Kniver"
         text="Vi levererar de flesta typer av stål. Våra stål hjälper er att maximera värdeutbytet. Har vi det inte i vårt standardsortiment kan vi efter mätningar tillverka just era stål. Kanefusa tillverkar dessa stål och detta genererar i sin tur långa gångtider och bra resultat."
         productImg="https://www.kvarnstrands.com/media/1257/huggstal-1.jpg?width=336&height=219&bgcolor=white"
-        footheader1="Kniver"
+        footheader1="Båndsagblad"
         footheader2="Sirkelsagblad"
         productImg2="https://www.kyocera-unimerco.no/globalassets/general/metal/sawing/rx-250.jpg"
         productImg3="https://www.kvarnstrands.com/media/1261/uppdelningsklinga-framsida.jpg?width=336&height=219&bgcolor=white"
