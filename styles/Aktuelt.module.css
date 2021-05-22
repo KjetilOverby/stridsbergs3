@@ -63,6 +63,7 @@
   grid-template-columns: 25rem 1fr 1fr 25rem;
   grid-template-areas:
     ". nHeader  nHeader . "
+    ". nSubHeader  nSubHeader . "
     ". nImg nText ."
     ". nImgText nText ."
     ". nImgText nText .";
@@ -76,6 +77,10 @@
   justify-self: center;
   width: 100%;
   margin: 5rem 0;
+}
+.nSubheader {
+  grid-area: nSubHeader;
+  margin-top: -4rem;
 }
 .nImg {
   grid-area: nImg;
@@ -114,10 +119,12 @@
     margin: 5rem 1rem;
   }
   .newsContainer {
+    margin-top: 0;
     grid-template-columns: 1rem 1fr 1rem;
     grid-column-gap: 0;
     grid-template-areas:
       ". nHeader ."
+      ". nSubHeader ."
       ". nText ."
       ". nImg ."
       ". nImgText .";

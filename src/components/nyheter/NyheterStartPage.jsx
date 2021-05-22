@@ -5,6 +5,13 @@ function NyheterStartPage() {
   return (
     <div className={styles.newsContainer}>
       <h1 className={styles.nHeader}>Kvarnstrands overtar Stridsbergs Norge</h1>
+      <h4 className={styles.nSubheader}>
+        2011.08.18 Kvarnstrands Verktyg AB har kjøpt Stridsbergs Norge AS og
+        øker dermed sin virksomhet i Norge. – Vi kan nå tilby våre kunder innen
+        tre, aluminium og metallbearbeidning ett komplett program når det
+        gjelder service, verktøy, utdanning og optimalisering, heter det i en
+        pressemelding fra Kvarnstrands.
+      </h4>
       <div className={styles.nImg}>
         <img
           className={styles.nImg}
