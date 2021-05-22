@@ -4,16 +4,16 @@ import Head from "next/head";
 import HeaderComponent from "../src/components/common/HeaderComponent";
 import FooterComponent from "../src/components/common/FooterComponent";
 import NyheterFrontPage from "../src/components/nyheter/NyheterFrontPage";
-import ProductWrapper from "../src/components/common/products/ProduktWrapper";
+import ProduktWrapper from "../src/components/common/products/ProduktWrapper";
 
 const nyheter = () => {
   return (
-    <ProductWrapper>
+    <ProduktWrapper>
       <HeaderComponent />
       <div className={styles.newsImg}></div>
       <NyheterFrontPage />
       <FooterComponent />
-    </ProductWrapper>
+    </ProduktWrapper>
     // <div>
     //   <Head>
     //     <title>Nyheter | Stridsbergs & Kvarnstrands</title>

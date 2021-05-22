@@ -1,14 +1,17 @@
 import React from "react";
 import styles from "../../../styles/NewsCard.module.css";
+import Link from "next/link";
 
-const NewsCard = ({ title, img, text, dato }) => {
+const NewsCard = ({ title, img, text, dato, goTo }) => {
   return (
     <div className={styles.container}>
       <h1 className={styles.header}>{title}</h1>
-      <p>{dato}</p>
+      <p className={styles.dato}>{dato}</p>
       <img className={styles.img} src={img} alt="investeringer" />
-      <p>{text}</p>
-      <button>Les mer</button>
+      <p className={styles.text}>{text}</p>
+      <Link href={`${goTo}`}>
+        <button className={styles.button}>Les mer</button>
+      </Link>
     </div>
   );
 };

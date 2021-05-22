@@ -6,11 +6,10 @@ const NyheterFrontPage = () => {
   return (
     <div className={styles.container}>
       <NewsCard
-        title="Investeringer"
-        dato="01.10.2018"
-        img="https://lh3.googleusercontent.com/pw/ACtC-3e4OA89MtAN5ailxSqJe8qlxGG8_YXfAhOPsViDO_0ipqETemTGDICx-h12feUXTNmgNO6TGVIIFRGIXnr8WDWjyJuKKG3wpi37SIFNd2A3PVX6Ttrda8c5yXTeBOAFEsU4BDh78LV2nmhEIEu2Bk_H=w1716-h1108-no?authuser=0"
-        text="Nyfusjonerte Kvarnstrands & Stridsbergs kombinerer håndar- beid med en flunkende ny sli- perobot. – Historiens største investering i en slipemaskin i Norge, sier daglig leder Kai Lundquist.
-        "
+        title="Norges største på sagblad"
+        dato="31.08.2017"
+        img="https://lh3.googleusercontent.com/pw/ACtC-3djXvABgFak6ICNGCWpqtg_F3oIQk9IZq9LuHEWfjFxfCdlqQyBbQMwKKppN4QvfgL-E2AdLS0_mqA91KEggTbXHIQe1sU2Wfd4sTKrRzbT2Ls82lrxzDOFX_AdBbb9gvf2mrq6MmZAywemz_JNqh8h=w970-h643-no?authuser=0"
+        text="Stange: Siden oppstarten i 1987 har Stridsbergs A/S vært en solid leverandør av skjærende verktøy. Nylig ble 30-års jubileet feiret med åpent hus og grillmat. (Stangeavisa)"
       />
       <NewsCard
         title="Kvarnstrands overtar Stridsbergs Norge"
@@ -19,10 +18,12 @@ const NyheterFrontPage = () => {
         text="2011.08.18 Kvarnstrands Verktyg AB har kjøpt Stridsbergs Norge AS og øker dermed sin virksomhet i Norge. – Vi kan nå tilby våre kunder innen tre, aluminium og metallbearbeidning ett komplett program når det gjelder service, verktøy, utdanning og optimalisering, heter det i en pressemelding fra Kvarnstrands. (Skogindustri)"
       />
       <NewsCard
-        title="Norges største på sagblad"
-        dato="31.08.2017"
-        img="https://lh3.googleusercontent.com/pw/ACtC-3djXvABgFak6ICNGCWpqtg_F3oIQk9IZq9LuHEWfjFxfCdlqQyBbQMwKKppN4QvfgL-E2AdLS0_mqA91KEggTbXHIQe1sU2Wfd4sTKrRzbT2Ls82lrxzDOFX_AdBbb9gvf2mrq6MmZAywemz_JNqh8h=w970-h643-no?authuser=0"
-        text="Stange: Siden oppstarten i 1987 har Stridsbergs A/S vært en solid leverandør av skjærende verktøy. Nylig ble 30-års jubileet feiret med åpent hus og grillmat. (Stangeavisa)"
+        title="Investeringer"
+        dato="01.10.2018"
+        img="https://lh3.googleusercontent.com/pw/ACtC-3e4OA89MtAN5ailxSqJe8qlxGG8_YXfAhOPsViDO_0ipqETemTGDICx-h12feUXTNmgNO6TGVIIFRGIXnr8WDWjyJuKKG3wpi37SIFNd2A3PVX6Ttrda8c5yXTeBOAFEsU4BDh78LV2nmhEIEu2Bk_H=w1716-h1108-no?authuser=0"
+        text="Nyfusjonerte Kvarnstrands & Stridsbergs kombinerer håndar- beid med en flunkende ny slipeperobot. – Historiens største investering i en slipemaskin i Norge, sier daglig leder Kai Lundquist. (Treindustrien)
+        "
+        goTo="/nyheter3"
       />
     </div>
   );
