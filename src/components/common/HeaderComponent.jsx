@@ -7,6 +7,7 @@ import { RiArrowDownSLine } from "react-icons/ri";
 
 function HeaderComponent() {
   const [openAktuelt, setOpenAktuelt] = useState(false);
+  const [openProdukter, setOpenProdukter] = useState(false);
   const [drawbarposition, setDrawbarposition] = useState(styles.drawerin);
 
   const drawerHandler = () => {
@@ -44,9 +45,34 @@ function HeaderComponent() {
           </Link>
 
           <hr className={styles.hr} />
-          <Link href="/produkter">
-            <p className={styles.drawerTab}>Produkter</p>
-          </Link>
+
+          <p
+            onClick={() => setOpenProdukter(!openProdukter)}
+            className={styles.drawerTab}
+          >
+            Produkter
+          </p>
+
+          {openProdukter && (
+            <>
+              <Link href="/produkter">
+                <p className={styles.drawerSubTab}>Alle produkter</p>
+              </Link>
+              <Link href="/sirkelsagblad">
+                <p className={styles.drawerSubTab}>Sirkelsagblad</p>
+              </Link>
+              <Link href="/bandsagblad">
+                <p className={styles.drawerSubTab}>Båndsagblad</p>
+              </Link>
+              <Link href="/kniver">
+                <p className={styles.drawerSubTab}>Kniver</p>
+              </Link>
+              <Link href="/fres">
+                <p className={styles.drawerSubTab}>Fres</p>
+              </Link>
+            </>
+          )}
+
           <hr className={styles.hr} />
           <Link href="/slipeservice">
             <p className={styles.drawerTab}>Slipeservice</p>

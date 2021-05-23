@@ -57,6 +57,7 @@
       "sidebar foot foot"
       "sidebar foot foot"
       "sidebar foot foot";
+    margin: 1rem;
   }
 }
 @media screen and (max-width: 900px) {
@@ -67,6 +68,7 @@
       "img img img"
       "foot foot foot"
       "sidebar sidebar sidebar";
+    margin: 1rem;
   }
   .footContainer {
     grid-template-areas:

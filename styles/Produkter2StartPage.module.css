@@ -1,0 +1,56 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas: "sagblad bandsag kniver fres";
+  margin: 8rem 0;
+  overflow: hidden;
+}
+.imgBackground {
+  display: grid;
+  height: 16vw;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  overflow: hidden;
+  background: green;
+}
+.sagblad {
+  grid-area: sagblad;
+}
+
+.bandsag {
+  grid-area: bandsag;
+}
+.kniver {
+  grid-area: kniver;
+}
+.fres {
+  grid-area: fres;
+}
+.img {
+  width: 100%;
+  grid-column: 1/-1;
+  grid-row: 1/-1;
+  filter: grayscale(1);
+  transition: 0.5s;
+}
+.img:hover {
+  transform: scale(1.2);
+  filter: grayscale(0);
+}
+.imgContainer {
+  width: 50rem;
+  height: 100%;
+  grid-column: 1/-1;
+  grid-row: 1/-1;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 5;
+}
+.text {
+  grid-column: 2/4;
+  grid-row: 1/2;
+  color: rgb(44, 44, 44);
+  z-index: 10;
+  background: rgba(256, 256, 256, 0.7);
+  padding: 1rem;
+  border-radius: 5px;
+}

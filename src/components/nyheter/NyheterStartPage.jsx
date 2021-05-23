@@ -1,9 +1,16 @@
 import React from "react";
 import styles from "../../../styles/Aktuelt.module.css";
+import { BsArrowLeft } from "react-icons/bs";
+import Link from "next/link";
 
 function NyheterStartPage() {
   return (
     <div className={styles.newsContainer}>
+      <Link href="/nyheter">
+        <p className={styles.backBtn}>
+          <BsArrowLeft className={styles.arrow} /> Tilbake
+        </p>
+      </Link>
       <h1 className={styles.nHeader}>Kvarnstrands overtar Stridsbergs Norge</h1>
       <h4 className={styles.nSubheader}>
         2011.08.18 Kvarnstrands Verktyg AB har kjøpt Stridsbergs Norge AS og

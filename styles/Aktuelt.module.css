@@ -53,7 +53,7 @@
 /******** NYHETER ***********/
 .newsImg {
   grid-area: image;
-  background: url("https://images.unsplash.com/photo-1504711434969-e33886168f5c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80");
+  background: url("https://images.unsplash.com/photo-1478940020726-e9e191651f1a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1950&q=80");
   background-size: cover;
   background-position: 50%;
 }
@@ -62,6 +62,7 @@
   display: grid;
   grid-template-columns: 25rem 1fr 1fr 25rem;
   grid-template-areas:
+    ". btn . ."
     ". nHeader  nHeader . "
     ". nSubHeader  nSubHeader . "
     ". nImg nText ."
@@ -102,6 +103,15 @@
   color: rgb(121, 121, 121);
   margin-top: 0rem;
 }
+.backBtn {
+  grid-area: btn;
+  cursor: pointer;
+}
+.arrow {
+  vertical-align: middle;
+  font-size: 1.2rem;
+  margin-right: 0.5rem;
+}
 
 @media screen and (max-width: 1750px) {
   .newsContainer {
@@ -123,6 +133,7 @@
     grid-template-columns: 1rem 1fr 1rem;
     grid-column-gap: 0;
     grid-template-areas:
+      ". btn ."
       ". nHeader ."
       ". nSubHeader ."
       ". nText ."
