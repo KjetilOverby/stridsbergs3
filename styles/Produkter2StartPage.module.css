@@ -46,11 +46,36 @@
   z-index: 5;
 }
 .text {
+  font-size: 1.5rem;
   grid-column: 2/4;
   grid-row: 1/2;
   color: rgb(44, 44, 44);
   z-index: 10;
   background: rgba(256, 256, 256, 0.7);
-  padding: 1rem;
+  padding: 0.5rem;
   border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width: 1600px) {
+  .container {
+    grid-template-areas:
+      "sagblad sagblad bandsag bandsag"
+      "kniver kniver fres fres";
+  }
+  .imgBackground {
+    height: 28vw;
+  }
+}
+@media screen and (max-width: 600px) {
+  .container {
+    grid-template-areas:
+      "sagblad sagblad sagblad sagblad"
+      "bandsag bandsag bandsag bandsag"
+      "kniver kniver kniver kniver"
+      "fres fres fres fres";
+  }
+  .imgBackground {
+    height: 60vw;
+  }
 }
