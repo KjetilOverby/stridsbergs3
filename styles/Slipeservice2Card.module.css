@@ -1,0 +1,34 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  height: 43rem;
+  width: 25rem;
+  margin-bottom: 8rem;
+}
+.subContainer {
+  grid-column: 1/ -1;
+  grid-row: 1/-1;
+  background: rgb(230, 230, 230);
+}
+.img {
+  grid-column: 1/-1;
+  grid-row: 1/10;
+  width: 100%;
+}
+.header {
+  color: rgb(0, 0, 0);
+}
+.textContainer {
+  grid-column: 1/-1;
+  grid-row: 7/-1;
+  margin-left: 1rem;
+}
+.liText {
+  color: rgb(0, 0, 0);
+}
+@media screen and (max-width: 768px) {
+  .container {
+    margin-bottom: 2rem;
+  }
+}

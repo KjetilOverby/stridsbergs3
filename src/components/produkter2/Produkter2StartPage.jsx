@@ -18,7 +18,7 @@ const Produkter2StartPage = () => {
       </Link>
       <Link href="bandsagblad">
         <div className={`${styles.bandsag} ${styles.imgBackground}`}>
-          <h1 className={styles.text}>Båndsag</h1>
+          <h1 className={styles.text}>Båndsagblad</h1>
           {/* <div className={styles.imgContainer}></div> */}
           <img
             className={styles.img}

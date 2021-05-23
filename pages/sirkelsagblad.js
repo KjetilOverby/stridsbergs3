@@ -16,10 +16,7 @@ function sirkelsagblad() {
         tel="949 87 318"
         mail="tommy@stridsberg.no"
         header="Sirkelsagblad"
-        text="Som en av Sveriges och Norges ledande leverantörer av produkter och service mot sågverk har vi en otroligt bred kunskap inom området. I vårt produktsortiment finner ni bland annat Kanefusa som är världens ledande producent av sågklingor.
-        Vår erfarenhet av optimering och inställningar av såglinjer gör oss till den ultimata samarbetspartnern inom området.
-        Vi sysslar med kontinuerlig utveckling mot er som kunds specifika behov och förutsättningar.
-        Hos oss finner ni allt ifrån sågklingor, huggstål till personal som kan komma till just er och rikta upp och förbättra er såglinje. Kontakta oss gärna för mer information!"
+        text="Vi levererar sågklingor till alla typer av sågar. Som agent för Kanefusas produkter kan vi erbjuda ett helhetskoncept med långa gångtider och ett fantastisk resultat. Naturligtvis har vi även ett stort utbud av andra klingor anpassade för alla typer av maskiner på marknaden. Nedan finner ni endast ett urval av vad vi kan leverera. Kontakta oss gärna för mer information."
         productImg="https://www.kvarnstrands.com/media/1261/uppdelningsklinga-framsida.jpg?width=336&height=219&bgcolor=white"
         footheader1="Kniver"
         footheader2="Båndsagblad"

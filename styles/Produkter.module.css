@@ -1,7 +1,7 @@
 .container {
   min-height: 100vh;
   display: grid;
-
+  grid-template-columns: 40rem 1fr 1fr 40rem;
   grid-template-rows: auto 25rem auto 1fr auto;
   grid-template-areas:
     "header header header header"
@@ -14,7 +14,7 @@
 .head {
   grid-area: head;
   justify-self: center;
-  margin: 6rem 8rem 0rem 8rem;
+  margin: 4rem 4rem -4rem 4rem;
 }
 .headerContainer {
   grid-area: header;
