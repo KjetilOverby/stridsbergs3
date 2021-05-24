@@ -20,7 +20,7 @@ function slipeservice() {
           <div className={styles.head}>
             <h1>Slipeservice</h1>
             <p>
-              Kvarnstrands & Stridsbergs er i dag ett komplett slipservicefirma
+              Kvarnstrands & Stridsbergs er i dag ett komplett slipeservicefirma
               som sliper verktøy for tre, aluminium og metallbearbeiding. Samt
               retting og omlodding av blader. Vi har service bil som leverer og
               henter hver 14. dag over hele landet. Vi jobber hele tiden på å

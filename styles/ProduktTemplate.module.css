@@ -62,6 +62,7 @@
 @media screen and (max-width: 1000px) {
   .container {
     grid-template-areas:
+      "back back back"
       "text text image"
       "sidebar foot foot"
       "sidebar foot foot"
@@ -73,6 +74,7 @@
   .container {
     grid-template-columns: 1rem 1fr 1rem;
     grid-template-areas:
+      "back back back"
       "text text text"
       "img img img"
       "foot foot foot"
@@ -81,6 +83,7 @@
   }
   .footContainer {
     grid-template-areas:
+      "back back"
       "line line"
       "text text"
       "product1 product1"

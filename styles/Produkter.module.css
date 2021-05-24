@@ -21,11 +21,13 @@
 }
 .imageContainer {
   grid-area: image;
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
-    url("https://images.unsplash.com/reserve/K9PZheO1RSiNMMP1ptsl_wood.jpg?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("https://lh3.googleusercontent.com/pw/ACtC-3enDB1-79fEUV9Qwptu7w2Wx4HaGJwO-s4ZLViBmBtqT12m1F911IPd_Jotl0bxbc4npU7IPsew7gaemdB8yQn2RbiaU_Z19hAiBbpCK14MP0bHKHUZWLiZZexjkpyErGsiB7eqfKWnjh19u0SQKMQ=w1919-h1080-no?authuser=0");
   background-size: cover;
-  background-position: 50%;
+  background-position: 0 35%;
   width: 100%;
+  filter: grayscale(0.7);
+  z-index: -1;
 }
 .imageContainerService {
   grid-area: image;

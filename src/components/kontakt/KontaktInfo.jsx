@@ -7,13 +7,7 @@ function KontaktInfo() {
       <h1 className={styles.header}>Kvarnstrands & Stridsbergs AS</h1>
       <h3 className={styles.kontaktInfo}>Tlf: 952 36 882</h3>
       <h3 className={styles.kontaktInfo}>
-        Epost:{" "}
-        <a
-          style={{ borderBottom: "1px solid black" }}
-          href="mailto:post@stridsberg.no"
-        >
-          post@stridsberg.no
-        </a>{" "}
+        Epost: <a href="mailto:post@stridsberg.no">post@stridsberg.no</a>{" "}
       </h3>
       <h3 className={styles.kontaktInfo}>
         Adresse: Stensrudveien 1 - 2335 Stange{" "}
