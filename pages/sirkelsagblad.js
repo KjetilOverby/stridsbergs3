@@ -16,7 +16,7 @@ function sirkelsagblad() {
         tel="949 87 318"
         mail="tommy@stridsberg.no"
         header="Sirkelsagblad"
-        text="Vi levererar sågklingor till alla typer av sågar. Som agent för Kanefusas produkter kan vi erbjuda ett helhetskoncept med långa gångtider och ett fantastisk resultat. Naturligtvis har vi även ett stort utbud av andra klingor anpassade för alla typer av maskiner på marknaden. Nedan finner ni endast ett urval av vad vi kan leverera. Kontakta oss gärna för mer information."
+        text="Vi leverer sagblad til alle typer av sager. Som agent for Kanefusa blader kan vi tilby et helhetlig konsept med lange standtider og bra resultat. Naturligvis har vi også et stort utvalg av andre sagbladprodusenter som passer til alle typer maskiner."
         productImg="https://www.kvarnstrands.com/media/1261/uppdelningsklinga-framsida.jpg?width=336&height=219&bgcolor=white"
         footheader1="Kniver"
         footheader2="Båndsagblad"

@@ -70,7 +70,7 @@ function Slipeservice2StartPage() {
         img="https://images.unsplash.com/photo-1594495894542-a46cc73e081a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80"
         text={
           <>
-            <h3>Servicerute kjører hever 14. dag i følgende områder:</h3>
+            <h3>Servicerute kjører hver 14. dag i følgende områder:</h3>
             <ul>
               <li>Ringerike/Oppland</li>
               <li>Sør-Trøndelag</li>

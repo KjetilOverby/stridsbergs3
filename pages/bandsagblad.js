@@ -16,10 +16,11 @@ function bandsagblad() {
         tel="949 87 318"
         mail="tommy@stridsberg.no"
         header="Båndsagblad"
-        text="Som en av Sveriges och Norges ledande leverantörer av produkter och service mot sågverk har vi en otroligt bred kunskap inom området. I vårt produktsortiment finner ni bland annat Kanefusa som är världens ledande producent av sågklingor.
-        Vår erfarenhet av optimering och inställningar av såglinjer gör oss till den ultimata samarbetspartnern inom området.
-        Vi sysslar med kontinuerlig utveckling mot er som kunds specifika behov och förutsättningar.
-        Hos oss finner ni allt ifrån sågklingor, huggstål till personal som kan komma till just er och rikta upp och förbättra er såglinje. Kontakta oss gärna för mer information!"
+        text="Som en av Norges ledende leverandører av produkter og service til sagbruk har vi en utrolig bred kunskap innen området. Vi er forhandler av Uddeholm båndsagblader, dette er båndsagblader som dekker de fleste behov."
+        header2="Mest brukte kvaliteter:"
+        text2="1450, ca 44HRC - er mest egnet for stukbånd, men det kan også stellitiseres,
+        1600, ca 47HRC - stuk og stellitbånd.
+        1670, ca 49HRC - Stellitbånd, Hardere kvalitet."
         productImg="https://www.kyocera-unimerco.no/globalassets/general/metal/sawing/rx-250.jpg"
         footheader1="Kniver"
         footheader2="Sirkelsagblad"

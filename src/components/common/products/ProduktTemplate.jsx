@@ -4,6 +4,8 @@ import Foot from "./Foot";
 import ProduktImage from "./ProduktImage";
 import SpecialistCard from "./SpecialistCard";
 import TextBox from "./TextBox";
+import { BsArrowLeftShort } from "react-icons/bs";
+import Link from "next/link";
 
 function ProduktTemplate({
   title,
@@ -12,6 +14,8 @@ function ProduktTemplate({
   mail,
   header,
   text,
+  header2,
+  text2,
   productImg,
   footheader1,
   footheader2,
@@ -21,6 +25,11 @@ function ProduktTemplate({
 }) {
   return (
     <div className={styles.container}>
+      <Link href="/produkter">
+        <p className={styles.back}>
+          <BsArrowLeftShort className={styles.icon} /> Til produkter
+        </p>
+      </Link>
       <SpecialistCard
         title={title}
         name={name}
@@ -28,7 +37,7 @@ function ProduktTemplate({
         mail={mail}
         profileImg={profileImg}
       />
-      <TextBox title={header} text={text} />
+      <TextBox title={header} text={text} header2={header2} text2={text2} />
       <ProduktImage img={productImg} />
       <Foot
         footheader1={footheader1}

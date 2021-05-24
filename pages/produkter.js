@@ -21,16 +21,13 @@ function produkter() {
             <h1>Produkter</h1>
 
             <p>
-              Som en av Sveriges och Norges ledande leverantörer av produkter
-              och service mot sågverk har vi en otroligt bred kunskap inom
-              området. I vårt produktsortiment finner ni bland annat Kanefusa
-              som är världens ledande producent av sågklingor. Vår erfarenhet av
-              optimering och inställningar av såglinjer gör oss till den
-              ultimata samarbetspartnern inom området. Vi sysslar med
-              kontinuerlig utveckling mot er som kunds specifika behov och
-              förutsättningar. Hos oss finner ni allt ifrån sågklingor, huggstål
-              till personal som kan komma till just er och rikta upp och
-              förbättra er såglinje. Kontakta oss gärna för mer information!
+              Som en av Norges ledende leverandører av skjærende verktøy til
+              sagbruksindustrien har vi bred kunnskap innenfor området. I vårt
+              produktsortiment finner du blandt annet Kanefusa som er verdens
+              ledende produsent av sagblader. Vi driver med kontinuerlig
+              utvikling mot kundens spesifikke behov og forutsetninger. Vi
+              skaffer Det meste av skjærende verktøy og rekvisita til deres
+              maskiner.
             </p>
           </div>
           <div className={styles.imageContainer}></div>

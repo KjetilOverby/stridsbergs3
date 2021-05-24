@@ -16,7 +16,13 @@ function kniver() {
         tel="949 87 318"
         mail="tommy@stridsberg.no"
         header="Kniver"
-        text="Vi levererar de flesta typer av stål. Våra stål hjälper er att maximera värdeutbytet. Har vi det inte i vårt standardsortiment kan vi efter mätningar tillverka just era stål. Kanefusa tillverkar dessa stål och detta genererar i sin tur långa gångtider och bra resultat."
+        text="Vi leverer de fleste typer av stål. Våre stål hjelper deg att maksimere verdiutbyttet."
+        header2="Motstål - Huggkniver - Reduserkniver - Rillestål"
+        text2="Vi har egen knivsliper slik at vi kan møte våre kunders behov for slipeservice av kniver.
+
+        Vi sliper kniver inntil 2600mm lengde.
+        
+        Kontakt oss for mere info og pris - vi kan hjelpe dere med det meste."
         productImg="https://www.kvarnstrands.com/media/1257/huggstal-1.jpg?width=336&height=219&bgcolor=white"
         footheader1="Båndsagblad"
         footheader2="Sirkelsagblad"
